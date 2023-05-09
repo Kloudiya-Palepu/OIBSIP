@@ -1,0 +1,107 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body
+{
+    background: url(background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1
+{
+    color:  rgb(192, 35, 166);
+    padding-top: 10vh;
+    text-transform: uppercase;
+    text-align: center;
+}
+.calculator
+{
+    background-color: white;
+    width: max-content;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 25px white;
+    margin: auto;
+    margin-top: 10vh;
+}
+.screen
+{
+    margin: 0px 0px 10px 0px;
+}
+#display
+{
+    text-align: right;
+    width: 30vh;
+    height: 5vh;
+    border-radius: 4px;
+    font-size: 2.5vh;
+    padding: 5px 10px;
+    border: 2px solid blue;
+    box-shadow: 0px 0px 8px rgb(49, 27, 219);
+}
+.row
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+button
+{
+    cursor: pointer;
+    font-size: 3.5vh;
+    font-weight: bold;
+    background-color: rgb(230, 47, 169);
+    color: rgb(255, 255, 255);
+    width: 6vh;
+    font-family: monospace;
+    height: 6vh;
+    border-radius: 3vh;
+    margin: 0.5vh;
+    border: 0px;
+    transition: 0.2s;
+}
+button:hover
+{
+    background-color: rgb(77, 85, 202);
+    box-shadow: -5px 0px 7px blue inset;
+}
+.C
+{
+    background-color:  rgb(125, 175, 15)
+}
+.C:hover
+{
+    background-color: rgb(25, 46, 46);
+    box-shadow: -5px 0px 7px rgb(15, 255, 27) inset;
+}
+.equal
+{
+    background-color: rgb(255, 215, 80);
+}
+.equal:hover
+{
+    background-color: #ffa024;
+    box-shadow: -5px 0px 7px #e78300 inset;
+}
+.operator
+{
+    background-color: rgb(23, 42, 216);
+}
+.operator:hover
+{
+    background-color: rgb(53, 182, 107);
+    box-shadow: -5px 0px 7px rgb(24, 202, 134) inset;
+}
+.erase
+{
+    background-color: rgb(20, 99, 255);
+}
+.erase:hover
+{
+    background-color: rgb(141, 28, 194);
+    box-shadow: -5px 0px 7px rgb(20, 99, 255) inset;
+
+
