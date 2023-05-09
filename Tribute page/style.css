@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    background-color: black;
+   
+    
+}
+.content{
+    margin-top: 10%;
+    max-width: 600px;
+}
+.content h1{
+    font-size: 70px;
+    color: greenyellow;
+    text-align: center;
+}
+.content h2{
+    font-size: 60px;
+    color: palevioletred;
+    text-align: center;
+}
+.content h3{
+    font-size: 30px;
+    color: #fff;
+    padding-left: 10%;
+}
+.content p{
+    margin: 10px 0 30px;
+    color: #fff;
+    padding-left: 10%;
+    line-height: 2;
+}
+.feature-img{
+    width: 550px;
+    position: absolute;
+    top: 20%;
+    right: 5%;
+}
